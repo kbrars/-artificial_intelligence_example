@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h2> IRIS  RESULT</h2>    
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>IRIS TYPE PREDICTED</th>
+          <th>PROBABILTY</th>
+          <th>PROBABILTIES</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{predicted}}</td>
+          <td>{{probality}}</td>
+          <td>{{probalities}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+{% endblock %}
